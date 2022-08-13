@@ -1,0 +1,88 @@
+syntax = "proto3";
+
+package pb;
+
+option go_package = "./;pb";
+
+import "google/api/annotations.proto";
+
+service productsAPI {
+  // Get all products
+  rpc ListProducts(ListProductsRequest) returns (ListProductsResponse) {
+    option (google.api.http) = {
+      get: "/products/list_products"
+    };
+  };
+  // Get product by transaction id
+  rpc GetProductByTransactionId(GetProductByTransactionIdRequest) returns (GetProductByTransactionIdResponse) {
+    option (google.api.http) = {
+      get: "/products/get_product_by_transaction_id/{id}"
+    };
+  };
+  // Get product by id
+  rpc GetProduct(GetProductRequest) returns (GetProductResponse) {
+    option (google.api.http) = {
+      get: "/products/get_product/{id}"
+    };
+  };
+  // Add new product
+  rpc AddProduct(AddProductRequest) returns (AddProductResponse) {
+    option (google.api.http) = {
+      post: "/products/add_product"
+      body: "*"
+    };
+  };
+  // Update product
+  rpc UpdateProduct(UpdateProductRequest) returns (UpdateProductResponse) {
+    option (google.api.http) = {
+      put: "/products/update_product"
+      body: "*"
+    };
+  };;
+}
+
+message ListProductsRequest {
+}
+
+message ListProductsResponse {
+  repeated Product products = 1;
+}
+
+message GetProductByTransactionIdRequest {
+  uint64 id = 1;
+}
+
+message GetProductByTransactionIdResponse {
+  Product Product = 1;
+}
+
+message GetProductRequest {
+  uint64 id = 1;
+}
+
+message GetProductResponse {
+  Product Product = 1;
+}
+
+message AddProductRequest {
+  Product Product = 1;
+}
+
+message AddProductResponse {
+  Product Product = 1;
+}
+
+message UpdateProductRequest {
+  Product Product = 1;
+}
+
+message UpdateProductResponse {
+  Product Product = 1;
+}
+
+message Product {
+  uint64 id = 1;
+  string product_name = 2;
+  string quantity = 3;
+  string price = 4;
+}

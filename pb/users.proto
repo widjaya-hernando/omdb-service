@@ -1,0 +1,89 @@
+syntax = "proto3";
+
+package pb;
+
+option go_package = "./;pb";
+
+import "google/api/annotations.proto";
+
+service usersAPI {
+  // Get all users
+  rpc ListUsers(ListUsersRequest) returns (ListUsersResponse) {
+    option (google.api.http) = {
+      get: "/users/list_users"
+    };
+  };
+  // Get user by transaction id
+  rpc GetUserByTransactionId(GetUserByTransactionIdRequest) returns (GetUserByTransactionIdResponse) {
+    option (google.api.http) = {
+      get: "/users/get_user_by_transaction_id/{id}"
+    };
+  };
+  // Get user by id.
+  rpc GetUser(GetUserRequest) returns (GetUserResponse) {
+    option (google.api.http) = {
+      get: "/users/get_user/{id}"
+    };
+  };
+  // Add new user.
+  rpc AddUser(AddUserRequest) returns (AddUserResponse) {
+    option (google.api.http) = {
+      post: "/users/add_user"
+      body: "*"
+    };
+  };
+  // Update user.
+  rpc UpdateUser(UpdateUserRequest) returns (UpdateUserResponse) {
+    option (google.api.http) = {
+      put: "/users/update_user"
+      body: "*"
+    };
+  };;
+}
+
+message ListUsersRequest {
+}
+
+message ListUsersResponse {
+  repeated User users = 1;
+}
+
+message GetUserByTransactionIdRequest {
+  uint64 id = 1;
+}
+
+message GetUserByTransactionIdResponse {
+  User User = 1;
+}
+
+message GetUserRequest {
+  uint64 id = 1;
+}
+
+message GetUserResponse {
+  User User = 1;
+}
+
+message AddUserRequest {
+  User User = 1;
+}
+
+message AddUserResponse {
+  User User = 1;
+}
+
+message UpdateUserRequest {
+  User User = 1;
+}
+
+message UpdateUserResponse {
+  User User = 1;
+}
+
+message User {
+  uint64 id = 1;
+  string user_name = 2;
+  string phone = 3;
+  string email = 4;
+  string address = 5;
+}
