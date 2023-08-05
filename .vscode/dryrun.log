@@ -1,6 +1,6 @@
 make.exe --dry-run --always-make --keep-going --print-directory
-make.exe: Entering directory `c:/Users/Backend3/go/src/prod-trans-user-service'
+make.exe: Entering directory `c:/Users/Backend3/go/src/omdb_service'
 go mod tidy
-go mod vendor
-make.exe: Leaving directory `c:/Users/Backend3/go/src/prod-trans-user-service'
+go mod vendor        
+make.exe: Leaving directory `c:/Users/Backend3/go/src/omdb_service'
  

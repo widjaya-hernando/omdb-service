@@ -8,7 +8,7 @@ make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --quest
 # This program built for i386-pc-mingw32
  
 
-# Make data base, printed on Sat Aug 05 13:29:56 2023
+# Make data base, printed on Sat Aug 05 16:30:19 2023
 
 # Variables
 
@@ -33,7 +33,8 @@ HOMEDRIVE = C:
 # automatic
 ^D = $(patsubst %/,%,$(dir $^))
 # makefile
-CURDIR := c:/Users/Backend3/go/src/prod-trans-user-service
+CURDIR := c:/Users/Backend3/g 
+o/src/omdb_service
 # default
 SHELL := sh.exe
 # environment
@@ -127,7 +128,8 @@ PROGRAMFILES(X86) = C:\Program Files (x86)
 # environment
 LOCALAPPDATA = C:\Users\Backend3\AppData\Local
 # environment
-PSMODULEPATH = C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+PSMODULEPATH = C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32 
+\WindowsPowerShell\v1.0\Modules
 # default
 MAKE_COMMAND := make.exe
 # environment
@@ -158,8 +160,6 @@ SYSTEMROOT = C:\Windows
 +D = $(patsubst %/,%,$(dir $+))
 # environment
 PYENV = C:\Users\Backend3\.pyenv\pyenv-win\
-# environment
-VSCODE_L10N_BUNDLE_LOCATION = 
 # automatic
 +F = $(notdir $+)
 # environment
@@ -174,7 +174,8 @@ MAKEFILES :=
 <F = $(notdir $<)
 # environment
 LC_ALL = C
-# environment
+# environmen 
+t
 PYENV_HOME = C:\Users\Backend3\.pyenv\pyenv-win\
 # automatic
 ^F = $(notdir $^)
@@ -199,7 +200,8 @@ VSCODE_PID = 9880
 # environment
 USERDOMAIN_ROAMINGPROFILE = DESKTOP-V0NQIC1
 # variable set hash-table stats:
-# Load=93/1024=9%, Rehash=0, Collisions=10/113=9%
+# Load=92/1024=9%, Rehash=0 
+, Collisions=10/112=9%
 
 # Pattern-specific Variable Values
 
@@ -213,17 +215,19 @@ USERDOMAIN_ROAMINGPROFILE = DESKTOP-V0NQIC1
 # C:\Users\Backend3\go\bin (key C:/Users/Backend3/go/bin, mtime 1691127782): 20 files, no impossibilities.
 # C:\Windows\System32\WindowsPowerShell\v1.0\ (key C:/Windows/System32/WindowsPowerShell/v1.0/, mtime 1683726134): 30 files, no impossibilities.
 # C:\Windows\System32\Wbem (key C:/Windows/System32/Wbem, mtime 1691147004): 169 files, no impossibilities.
-# . (key c:/Users/Backend3/go/src/prod-trans-user-service, mtime 1672735757): 30 files, no impossibilities.
+# . (key c:/Users/Backend3/go/src/omdb_service, mtime 1691227808): 15 files, no impossibilities.
 # C:\Program Files\nodejs\ (key C:/Program Files/nodejs/, mtime 1658892451): 13 files, no impossibilities.
-# C:\Users\Backend3\.pyenv\pyenv-win\shims (key C:/Users/Backend3/.pyenv/pyenv-win/shims, mtime 1691056385): 24 files, no impossibilities.
+# C:\Users\Backend3\.pyenv\pyenv-win\shims (key C:/Users/Backend3/.py 
+env/pyenv-win/shims, mtime 1691056385): 24 files, no impossibilities.
 # C:\Program Files\JetBrains\GoLand 2022.2\bin (key C:/Program Files/JetBrains/GoLand 2022.2/bin, mtime 1659605892): 28 files, no impossibilities.
 # C:\Users\Backend3\.pyenv\pyenv-win\bin (key C:/Users/Backend3/.pyenv/pyenv-win/bin, mtime 1691054916): 6 files, no impossibilities.
 # C:\Windows\System32\OpenSSH\: could not be stat'd.
 # C:\Program Files\PuTTY\ (key C:/Program Files/PuTTY/, mtime 1675765762): 12 files, no impossibilities.
 # C:\Program Files\Redis\ (key C:/Program Files/Redis/, mtime 1690966492): 20 files, no impossibilities.
 # C:\Users\Backend3\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\Scripts (key C:/Users/Backend3/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0/LocalCache/local-packages/Python311/Scripts, mtime 1691036491): 12 files, no impossibilities.
-# C:\Windows (key C:/Windows, mtime 1691147063): 108 files, no impossibilities.
-# C:\Users\Backend3\AppData\Local\Programs\Microsoft VS Code\bin (key C:/Users/Backend3/AppData/Local/Programs/Microsoft VS Code/bin, mtime 1686889412): 5 files, no impossibilities.
+# C:\Windows (key C:/Windows, mtime 1691218643): 107 files, no impossibilities.
+# 
+ C:\Users\Backend3\AppData\Local\Programs\Microsoft VS Code\bin (key C:/Users/Backend3/AppData/Local/Programs/Microsoft VS Code/bin, mtime 1686889412): 5 files, no impossibilities.
 # C:\Program Files\Cloudflare\Cloudflare WARP\ (key C:/Program Files/Cloudflare/Cloudflare WARP/, mtime 1659269502): 11 files, no impossibilities.
 # C:\Program Files\dotnet\ (key C:/Program Files/dotnet/, mtime 1686292273): 8 files, no impossibilities.
 # C:\Users\Backend3\AppData\Roaming\npm (key C:/Users/Backend3/AppData/Roaming/npm, mtime 1658892449): 2 files, no impossibilities.
@@ -231,9 +235,10 @@ USERDOMAIN_ROAMINGPROFILE = DESKTOP-V0NQIC1
 # C:\Program Files\Git\cmd (key C:/Program Files/Git/cmd, mtime 1658716457): 8 files, no impossibilities.
 # C:\Windows\system32 (key C:/Windows/system32, mtime 1691149886): 2947 files, no impossibilities.
 # C:\Users\Backend3\AppData\Local\Microsoft\WindowsApps (key C:/Users/Backend3/AppData/Local/Microsoft/WindowsApps, mtime 1691214774): 31 files, no impossibilities.
-# C:\Program Files (x86)\GnuWin32\bin (key C:/Program Files (x86)/GnuWin32/bin, mtime 1658817014): 5 files, no impossibilities.
+# C:\Program Files (x86 
+)\GnuWin32\bin (key C:/Program Files (x86)/GnuWin32/bin, mtime 1658817014): 5 files, no impossibilities.
 
-# 3506 files, no impossibilities in 25 directories.
+# 3490 files, no impossibilities in 25 directories.
 
 # Implicit Rules
 
@@ -253,14 +258,15 @@ all:
 # Not a target:
 .DEFAULT:
 #  Implicit rule search has not been done.
-#  Modification time never checked.
+#  Modification tim 
+e never checked.
 #  File has not been updated.
 
 proto:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
-#  commands to execute (from `makefile', line 16):
+#  commands to execute (from `makefile', line 6):
 	protoc --proto_path=pb pb/*.proto --go_out=gen/ 
 	protoc --proto_path=pb pb/*.proto --go-grpc_out=require_unimplemented_servers=false:gen/
 	protoc -I pb --grpc-gateway_out ./gen/  \
@@ -276,59 +282,27 @@ dep:
 #  File has not been updated.
 #  commands to execute (from `makefile', line 2):
 	go mod tidy
-	go mod vendor
+	go mod vendor        
 	
 
 # Not a target:
 makefile:
 #  Implicit rule search has been done.
-#  Last modified 2022-06-28 16:17:58
+#  Last modified 2023-08-05 16:27:49
 #  File has been updated.
 #  Successfully updated.
 # variable set hash-table stats:
 # Load=0/32=0%, Rehash=0, Collisions=0/0=0%
 
-createdb:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-#  commands to execute (from `makefile', line 10):
-	npx sequelize db:create
-	
-
-migrate:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-#  commands to execute (from `makefile', line 6):
-	npm i
-	npx sequelize db:migrate
-	
-
 # Not a target:
 .SUFFIXES:
-#  Implicit rule search has not been done.
+#  Implicit rule 
+ search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
-
-docker:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-#  commands to execute (from `makefile', line 25):
-	docker compose up
-	
-
-undo:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-#  commands to execute (from `makefile', line 13):
-	npx sequelize db:migrate:undo:all           
-	
 
 # files hash-table stats:
-# Load=10/1024=1%, Rehash=0, Collisions=0/21=0%
+# Load=6/1024=1%, Rehash=0, Collisions=0/17=0%
 # VPATH Search Paths
 
 # No `vpath' search paths.
@@ -340,7 +314,7 @@ undo:
 # strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
 # strcache free: total = 4087 / max = 4087 / min = 4087 / avg = 4087
 
-# Finished Make data base on Sat Aug 05 13:29:56 2023
+# Finished Make data base on Sat Aug 05 16:30:19 2023
 
  
 make.exe: *** No rule to make target `all'.  Stop.

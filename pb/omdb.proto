@@ -4,8 +4,6 @@ package omdb;
 
 option go_package = "./;pb";
 
-import "google/api/annotations.proto";
-
 service OMDBService {
 rpc GetMovieByID(GetMovieByIDRequest) returns (GetMovieByIDResponse) {}
 rpc SearchMovies(SearchMoviesRequest) returns (SearchMoviesResponse) {}
