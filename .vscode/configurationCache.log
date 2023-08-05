@@ -1,1 +1,1 @@
-{"buildTargets":["cker","createdb","dep","make.exe","migrate","proto","undo"],"launchTargets":[],"customConfigurationProvider":{"workspaceBrowse":{"browsePath":[],"compilerArgs":[]},"fileIndex":[]}}
+{"buildTargets":["createdb","dep","docker","migrate","proto","undo"],"launchTargets":[],"customConfigurationProvider":{"workspaceBrowse":{"browsePath":[],"compilerArgs":[]},"fileIndex":[]}}
